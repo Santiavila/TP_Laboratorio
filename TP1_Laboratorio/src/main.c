@@ -114,7 +114,7 @@ int main(void) {
 				break;
 
 			default:
-				fflush(stdin);
+				fflush(stdout);
 				printf("Caracter no valido.");
 				break;
 		}
