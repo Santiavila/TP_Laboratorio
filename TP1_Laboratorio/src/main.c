@@ -97,13 +97,17 @@ int main(void) {
 				printf("\nB El resultado de A - B es: %d", resta);
 				printf("\nC El resultado de A/B es: %f", division);
 				printf("\nD El resultado de A*B es: %d", multiplicacion);
+
+
 					if(resultadoFactorialUno == -1 || resultadoFactorialDos == -1){
 						printf("\n Error: NO es posible calcular el factorial de un numero negativo\n Por favor reintente nuevamente. \n");
-					} else if(resultadoFactorialUno != 0 || resultadoFactorialDos != 0 ){
+					}
+					else if(resultadoFactorialUno != 0 || resultadoFactorialDos != 0 ){
 					printf("\nE El factorial del primer operando %d es: %d \n El factorial del segundo operando %d es: %d \n", primerOperando, resultadoFactorialUno, segundoOperando, resultadoFactorialDos);
 					flagPrimerOperando = 0;
 					flagSegundoOperando = 0;
-					}else {
+					}
+					else {
 						printf("\nERROR: Para obtener los resultados antes debe realizar operaciones selecionando la opción 3 del MENU.\n");
 					}
 				}
